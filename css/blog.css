@@ -34,3 +34,24 @@ body{
 /* .blog-heading span{
     color: blue;
 } */
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+
+/* ---blog-headingright--- */
+.blog-heading-right{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+}
+.blog-heading-right h3{
+    font-size: 1.4rem;
+    color: rgb(183, 174, 174);
+    font-style: normal;
+    font-weight: 600;
+    align-content: right;
+    text-align: right;
+}
