@@ -29,5 +29,21 @@ function saveFormData(event) {
     event.target.reset();
 }
 
+const loadFormData = (event) => {
+    //event.preventDefault();
+
+    const email = localStorage.getItem("email");
+    const password = localStorage.getItem("password");
+
+    const inputEmail = document.getElementById("email").value;
+    const inputPassword = document.getElementById("password").value;
+
+    if (inputEmail === email && password === inputPassword) {
+        alert("Authentication successfully");
+    } else {
+        alert("Email/Password invalid!")
+    }
+}
+
 countCharacters();
 saveFormData()
