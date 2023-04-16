@@ -88,3 +88,118 @@ body{
 .blog-text h1{
     margin-bottom: 18px;
 }
+
+/* ---------------------------------TableCT----------------- */
+.tableCT1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12rem;
+    margin-right: 14rem;
+    padding: 25px 10px 10px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    font-family: 'Poppins',sans-serif;
+}
+.tableCT1 .tablename1{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.tableCT1 .tablecontent{
+    margin-left: 5rem;
+}
+li{
+    margin-top: 1px;
+    margin-bottom: 2rem;
+    color: dodgerblue;
+}
+
+.visionForChal{
+    margin-bottom: 2rem;
+}
+.visionForChal h2{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.visionForChal1{
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.useCaseForChal{
+    margin-bottom: 2rem;
+}
+.useCaseForChal h2{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.useCaseForChal1{
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+.howToUse{
+    margin-bottom: 2rem;
+
+}
+
+
+.howToUse h2{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+
+}
+
+.howToUse1{
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+.leaderboard h2{
+    margin-left: 0rem;
+}
+
+.whatUsersDo{
+    margin-bottom: 2rem;
+}
+.whatUsersDo h2{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.whatUsersDo1{
+margin-left: 14rem;
+margin-right: 14rem;
+}
+
+.futurePlan{
+    margin-bottom: 2rem;
+
+}
+.futurePlan h2{
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.futurePlan1{
+    margin-left: 14rem;
+margin-right: 14rem;
+
+}
+
+.futurePlan .list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 58px;
+    margin-left: 0rem;
+}
+.futurePlan .list .list1{
+    color: black;
+}
+
