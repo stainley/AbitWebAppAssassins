@@ -10,4 +10,5 @@ const copyright = () => {
     alert(year);
 }
 
+
 copyright();
