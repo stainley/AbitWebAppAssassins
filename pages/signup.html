@@ -11,7 +11,7 @@
 <section class="sign-up bg-body">
     <div class="container mt-5">
         <h1 class="mb-4">Sign Up</h1>
-        <form action="#" method="post">
+        <form action="#" method="post" onsubmit="saveFormData(event)">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" name="name" maxlength="25" required>
@@ -26,11 +26,12 @@
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" name="password" required>
+                <input type="password" class="form-control" id="password" name="password" required minlength="5">
             </div>
             <div class="mb-3">
                 <label for="confirm-password" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="confirm-password" name="password" required>
+                <input type="password" class="form-control" id="confirm-password" name="password" required
+                       minlength="5">
             </div>
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
@@ -39,13 +40,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
-    <script>
-        const message = document.getElementById("name");
-        const charCount = document.getElementById("charCount");
-        message.addEventListener("input", () => {
-            charCount.innerHTML = message.value.length;
-        });
-    </script>
+    <script src="../js/signup.js"></script>
 </section>
 </body>
 
