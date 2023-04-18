@@ -174,9 +174,9 @@
 .testimonial-card {
     box-shadow: 0px 4px 30px rgba(134, 97, 243, 0.15);
     border-radius: 16px;
-    padding: 20px;
+    padding: 10px 20px;
     text-align: left;
-    height: 300px;
+    height: 360px;
 }
 
 .testimonial-card-header {
@@ -184,7 +184,8 @@
 }
 
 .testimonial-card-feedback {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .feature-section {
@@ -414,4 +415,283 @@ footer {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.faq-send.faq-send-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        margin-top: 120px;
+    }
+
+    .metrics-section > div {
+        width: 100%;
+    }
+
+    .metrics-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .metrics-section-info > p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .metrics-section-info > button {
+        font-size: 14px;
+        width: 94.77px;
+        height: 35.08px;
+        padding: 6px 11.384px;
+    }
+
+    .metrics-section > div:nth-child(2) {
+        order: -1;
+    }
+
+    .metrics-figure {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: none;
+        border-radius: unset;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .metrics-figure  > div {
+        flex-basis: 47%;
+        box-sizing: border-box;
+        padding: 20px;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1), inset 4px 4px 25px rgba(134, 97, 243, 0.15);
+        border-radius: 16px;
+    }
+
+    .metrics-figure > div:not(:last-child) {
+        border-right: 0;
+    }
+
+    .metrics-figure > div > span:first-child {
+        font-size: 32px;
+    }
+
+    .metrics-figure > div > span:last-child {
+        font-size: 12px;
+    }
+
+    .how-it-works-header > span {
+        font-size: 24px;
+    }
+      
+    .how-it-works-section {
+        margin-top: 160px;
+    }
+
+    .how-it-works-header > p {
+        font-size: 14px;
+    }
+
+    .how-it-works-header > p > br {
+        display: none;
+    }
+
+    .step-header {
+        font-size: 20px;
+    }
+
+    .step-detail {
+        font-size: 12px;
+    }
+
+    .step {
+        flex-direction: column;
+    }
+
+    .step > div {
+        width: 100%;
+    }
+
+    .step-image > img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .step > .step-image {
+        order: -1;
+    }
+
+    .how-it-work-steps > .step:nth-child(2) > .step-image,
+    .how-it-work-steps > .step:nth-child(1) > .step-image {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-section > span {
+        font-size: 24px;
+    }
+
+    .testimonial-card-container {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        height: 360px;
+    }
+
+    .testimonial-card-container > .testimonial-card:nth-child(2),
+    .testimonial-card-container > .testimonial-card:nth-child(3) {
+        display: none;
+    }
+
+    .feature-section > div > a,
+    .feature-section > div > span {
+        font-size: 14px;
+    }
+
+    .feature-section > div > span br {
+        display: none;
+    }
+
+    .feature-section > div, .feature-section > img {
+        width: 60%;
+    }
+
+    .feature-section {
+        height: 176px;
+        margin-top: 40px;
+    }
+
+    .feature-section > div {
+        padding: 20px;
+    }
+
+    .faq-list {
+        order: -1;
+    }
+
+    .faq-list > img {
+        width: 90%;
+    }
+
+    .faq-section {
+        flex-direction: column;
+    }
+
+    .faq-section > div {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .faq-list-item {
+        font-size: 12px;
+        height: 45px;
+    }
+
+    .faq-list-item > img {
+        width: 15px;
+    }
+    
+    .faq-send.faq-send-desktop {
+        display: none;
+    }
+
+    .faq-send.faq-send-mobile {
+        display: flex;
+    }
+
+    .faq-send {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .faq-send-email > span {
+        font-weight: 600;
+        font-size: 14px;
+        display: block;
+    }
+    
+    .faq-send-email > div.faq-send-custom-input {
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .faq-send-email > div.faq-send-custom-input > input {
+        border: 2px solid #C9B0FD;
+        border-radius: 50px;
+        width: 90%;
+        padding: 18px;
+        height: 34px;
+        font-size: 12px;
+    }
+    
+    .faq-send-email > div.faq-send-custom-input > button {
+        position: absolute;
+        background: #8661F3;
+        border-radius: 89.3939px;
+        color: #fff;
+        border: 1px solid;
+        right: 11%;
+        top: 4px;
+        height: 32px;
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+
+    .faq-send img {
+        order: -1;
+        width: 94px;
+        height: 141px;
+    }
+
+    .download-section {
+        flex-direction: column;
+    }
+
+    .download-section > div {
+        order: -1;
+        text-align: center;
+    }
+
+    .download-section > img {
+        width: 100%;
+    }
+
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-subscript,
+    .footer-links,
+    .footer-app {
+        width: 100%;
+    }
+
+    .footer-app {
+        order: -1;
+    }
+
+    .footer-subscript {
+        order: 0;
+    }
+
+    .footer-links {
+        order: 1;
+    }
+
+    .footer-subscript > span > br,
+    .footer-app > p > br {
+        display: none;
+    }
+
+    .footer-subscript > div.faq-send-custom-input {
+        margin-bottom: 20px;
+    }
+
+    .footer-links > .footer-link-item:nth-child(2) {
+        text-align: center;
+    }
 }
