@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.about-section {
+    background-color: #8661F3;
+    text-align: center;
+
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: xx-large;
+        margin-block-start: 18px;
+        line-height: 20px;
+    }
+
+    p {
+        line-height: 1.2;
+    }
+
+    section div {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        word-spacing: 18px;
+    }
+}
