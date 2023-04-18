@@ -174,9 +174,9 @@
 .testimonial-card {
     box-shadow: 0px 4px 30px rgba(134, 97, 243, 0.15);
     border-radius: 16px;
-    padding: 20px;
+    padding: 10px 20px;
     text-align: left;
-    height: 300px;
+    height: 360px;
 }
 
 .testimonial-card-header {
@@ -184,7 +184,8 @@
 }
 
 .testimonial-card-feedback {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .feature-section {
@@ -657,5 +658,40 @@ footer {
 
     .download-section > img {
         width: 100%;
+    }
+
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-subscript,
+    .footer-links,
+    .footer-app {
+        width: 100%;
+    }
+
+    .footer-app {
+        order: -1;
+    }
+
+    .footer-subscript {
+        order: 0;
+    }
+
+    .footer-links {
+        order: 1;
+    }
+
+    .footer-subscript > span > br,
+    .footer-app > p > br {
+        display: none;
+    }
+
+    .footer-subscript > div.faq-send-custom-input {
+        margin-bottom: 20px;
+    }
+
+    .footer-links > .footer-link-item:nth-child(2) {
+        text-align: center;
     }
 }
