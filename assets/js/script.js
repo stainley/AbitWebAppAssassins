@@ -7,5 +7,9 @@ const copyright = () => {
     document.getElementById("copyright").textContent = `© ${year} Copyright`;
 }
 
-
 copyright();
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(r => {
+    });
+}
