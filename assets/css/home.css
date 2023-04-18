@@ -86,7 +86,7 @@
 }
 
 .how-it-works-section {
-    background-image: url("media/images/.how-it-works-bg.png");
+    background-image: url("../media/images/how-it-works-bg.png");
     text-align: center;
     margin-top: 80px;
 }
