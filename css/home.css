@@ -185,3 +185,39 @@
 .testimonial-card-feedback {
     margin-top: 20px;
 }
+
+.feature-section {
+    background: #F27F66;
+    border-radius: 16px;
+    height: 276px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-evenly;
+    margin: 40px 30px 1px 30px;
+}
+
+.feature-section > div,
+.feature-section > img {
+    width: 50%;
+}
+
+.feature-section > div {
+    padding: 30px 28px;
+}
+
+.feature-section > div > span {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFF;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.feature-section > div > a {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF;
+}
