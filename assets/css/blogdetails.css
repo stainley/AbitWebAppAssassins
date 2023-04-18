@@ -289,3 +289,14 @@ margin-right: 14rem;
     height: 1px;
     background-color: #e0e0e0;
 } */
+
+/* Figures in between Blogdetails page */
+.fig1 img{
+    height: 480px;
+    width: 480px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 25rem;
+    margin-right: 12rem;
+    border-radius: 10px;
+}
