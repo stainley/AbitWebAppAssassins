@@ -229,3 +229,111 @@ body{
     height: 1px;
     background-color: #e0e0e0;
 }
+
+/* Footer */
+
+footer {
+    background-color: #8661F3;
+    padding: 21px;
+}
+
+.footer-info {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-evenly;
+}
+
+.footer-app {
+    color: #FFF;
+    width: 25%;
+}
+
+.footer-app > div {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.footer-app  > p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: space-evenly;
+    color: #FFF;
+    width: 50%;
+}
+
+.footer-link-item > span {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer-link-item > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-link-item > ul > li {
+    padding: 5px 0;
+}
+
+.footer-link-item > ul > li > a {
+    font-weight: 400;
+    font-size: 16px;    
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-subscript {
+    width: 25%;
+    color: #FFF;
+}
+
+.footer-subscript > span {
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+.footer-subscript > div.faq-send-custom-input {
+    position: relative;
+    margin-top: 40px;
+}
+
+.footer-subscript > div.faq-send-custom-input > input {
+    border: 2px solid #C9B0FD;
+    border-radius: 50px;
+    width: 90%;
+    height: 42px;
+    padding: 18px;
+}
+
+.footer-subscript > div.faq-send-custom-input > button {
+    position: absolute;
+    background: #8661F3;
+    border-radius: 89.3939px;
+    padding: 5px 12px;
+    color: #fff;
+    border: 1px solid;
+    right: 11%;
+    top: 3px;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.faq-send.faq-send-mobile {
+    display: none;
+}
